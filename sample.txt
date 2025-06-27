@@ -1,3 +1,18 @@
 This is a new sample file
 
 it's a main branch location added into this as a sample txt file.
+
+git clone --> to clone the code from github website
+
+git checkout -b (newbranchname) (frombranch) --> creates new branch from the main branch
+Ex: git checkout -b signup main
+
+git status --> displays the file status like added/modified/delete etc.
+
+git add --all --> adds all the required files to the cart
+
+git commit -m "a message in it" --> commits/send the code/files into the respective selected branch
+
+git push --> push the new changes into the selected branch
+
+git push --set-upstream origin signup --> changes the branch origin as per user selection
